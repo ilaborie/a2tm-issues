@@ -52,7 +52,7 @@ var AppComponent = (function () {
         };
     };
     AppComponent.prototype.setValue = function () {
-        this.myForm.get('amount').setValue(123546);
+        this.myForm.get('amount').setValue('123546');
     };
     return AppComponent;
 }());
